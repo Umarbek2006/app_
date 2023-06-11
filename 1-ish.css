@@ -1,0 +1,309 @@
+html, body{
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    background-color: white;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#bir{
+    margin: 20px 30px;
+}
+#ongga {
+    display: flex;
+}
+#ongga a {
+    margin: 20px 30px;
+}
+.wrapper{
+    width: 1200px;
+    display: flex;
+    position: absolute;
+}
+.img{
+    position: absolute;
+    left: 750px;
+    top: 110px;
+}
+.img img {
+    width: 500px;
+}
+.Visual{
+    font-size: 100px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+.L{
+    font-size: 25px;
+    position: absolute;
+    top: 500px;
+    left: 100px;
+}
+.B{
+    font-size:25px;
+    position: absolute;
+    top: 180px;
+    left:100px;
+}
+
+.kompans{
+    display:flex;
+    position: absolute;
+}
+.G{
+    position: absolute;
+    top: 800px;
+    left: 100px;
+}
+.Nike{
+    position: absolute;
+    top: 800px;
+    left: 350px;
+}
+.sam{
+    position: absolute;
+    top: 800px;
+    left: 550px;
+}
+.aple{
+    position: inherit;
+    top: 780px;
+    left: 750px;
+}
+.iter{
+    position: absolute;
+    top: 800px;
+    left: 950px;
+}
+.adid{
+    position: absolute;
+    top: 780px;
+    left: 1150px;
+}
+
+
+
+.PRODUKT {
+    position: absolute;
+    display: flex;
+    top: 1000px;
+    left: 150px;
+}
+#prod-img {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+    background-color:darkorange;
+    margin-left: 25px;
+}
+
+#prod-img img {
+    scale: 0.5;
+}
+.ikki{
+   margin-left: 250px;    
+}
+#produkt-img{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 150px;
+    background-color:red;
+}
+#produkt-img img{
+ scale: 0.5;
+ position: relative;
+ left: 20px;
+ top: -20px;
+}
+#product-img{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color:green;
+}
+.uch{
+    margin-left: 250px;
+}
+#product-img img{
+   scale: 0.5;
+ position: relative;
+ left: -50px;
+ top: 50px; 
+}
+
+
+
+.mavzu{
+    font-size: 35px;
+    position: absolute;
+    top: 1420px;
+    left: 605px;
+}
+.foto{
+    position: absolute;
+    top: 1600px;
+    left: 150px;
+}
+.titl{
+    position: absolute;
+    font-size: 25px;
+    top: 1950px;
+    left: 150px;
+}
+.ul{
+   position: absolute;
+   font-size: 20px;
+   top: 2000px;
+   left: 150px; 
+}
+
+
+
+.proj{
+    position: absolute;
+    font-size: 25px;
+    top: 1950px;
+    left: 580px;
+}
+.ART{
+    position: absolute;
+    font-size: 20px;
+    top: 2000px;
+    left: 580px; 
+}
+.PHOTO{
+    position: absolute;
+    top: 1600px;
+    left: 580px;
+}
+
+.projekt{
+    position: absolute;
+    font-size: 25px;
+    top: 1950px;
+    left: 1000px;
+}
+.drec{
+    position: absolute;
+    font-size: 20px;
+    top: 2000px;
+    left: 1000px;
+}
+.imagen{
+    position: absolute;
+    top: 1600px;
+    left: 1000px; 
+}
+
+
+
+.roj{
+    position: absolute;
+    font-size: 25px;
+    top: 2500px;
+    left: 150px;
+}
+.dir{
+    position: absolute;
+    font-size: 20px;
+    top: 2550px;
+    left: 150px;
+}
+.isah{
+    position: absolute;
+    top: 2150px;
+    left: 150px; 
+}
+.jek{
+    position: absolute;
+    font-size: 25px;
+    top: 2500px;
+    left: 600px;
+}
+.rec{
+    position: absolute;
+    font-size: 20px;
+    top: 2550px;
+    left: 600px;
+}
+.kitob{
+    position: absolute;
+    top: 2150px;
+    left:  600px;
+}
+.paul{
+    position: absolute;
+    font-size: 25px;
+    top: 2500px;
+    left: 1000px;
+}
+.tion{
+    position: absolute;
+    font-size: 20px;
+    top: 2550px;
+    left: 1000px;
+}
+.book{
+    position: absolute;
+    top: 2150px;
+    left:  1000px; 
+}
+
+
+
+.users-page {
+    width: 1300px;
+    top: 2600px;
+    position: absolute;
+    text-align: center;
+}
+
+.clients {
+    display: flex;
+    justify-content: space-around;
+}
+
+.clients div {
+    box-sizing: border-box;
+    width: 300px;
+    background-color: lightgrey;
+    font-size: 20px;
+}
+.lets1{
+    position: absolute;
+    top: 3100px;
+    left: 110px;
+    font-size: 20px;
+}
+.lets1 p{
+    font-size: 25px;
+}
+
+
+
+.portifolio{
+    position: absolute;
+    width: 500px;
+    left: 600px;
+    top: 3100px;
+}
+.portifolio input, textarea {
+    width: 100%;
+    padding: 20px;
+    background-color: lightgrey;
+}
+.portifolio button {
+    padding: 20px 40px;
+    background-color: black;
+    color: white;
+}
